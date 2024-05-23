@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Roasters</title>
+
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="preload" href="css/styles.css" as="style"> <!-- Le indicamos que cargue la hoja de estilos lo mas rapido que pueda como una honad de stilos y luego cargarla hoja -->
+    <link href="css/styles.css" rel="stylesheet">
+
+</head>
+<body>
+ 
+    <div class="nav-bg">
+        <nav class="navegacion-principal contenedor">
+            <a href="index.html" class="nav-link">Home</a>
+            <a href="#" class="nav-link">About</a>
+            <a href="menu.html" class="nav-link">Menu</a>
+            <a href="#" class="nav-link">Reservation</a>
+            <a href="#" class="nav-link">Shop</a>
+            <a href="#" class="nav-link">Contact</a>
+            <a class="boton" href="#">Inside the Roastery</a>
+        </nav>
+    </div>
+    
+  
+
+    <section class="hero"> <!-- Si el primer elemento hijo de la estiqueta que utilizamos para agrupar es un heading (o sea h1,h2etc) hay que utiliar un section para agruparlo -->
+      <!--  <video autoplay muted loop poster="ruta/a/imagen-de-repuesto.jpg">
+            <source src="img/Typing.mp4" type="video/mp4">
+        </video>-->
+        
+        <div class="contenido-hero">
+           
+           <!-- A menos que sea el contenido principal, ahi usariamos main -->
+           <div class="titulo">
+            <h2>rosted coffee <br /> for you.</h2>
+           </div>
+          
+            <div class="ubicacion">
+           
+             <p>The coffee is brewed by first roasting the green coffee <br /> coals in a brazier. given an opportunity to sample.
+             </p> 
+            </div>
+           <!--BOTONES-->
+           <div class="botonexplore">
+            <a href="index.html" class="explore-more">Explore more </a>
+        </div>
+        
+        <div class="botonhiring">
+            <a href="https://www.linkedin.com/in/milagros-camila-arana" class="we-are-hiring">WE ARE HIRING</a>
+        </div>
+        
+        </div><!-- .contenido-hero --> 
+    </section>   
+    
+
+    <section class="about">
+        <div class="contenido-about">
+            <div class="texto">
+                <div class="tituloabout">
+                    <h3>About Us</h3>
+                    <h2>Organic & fresh coffee<br /> provider center.</h2>
+                </div>
+                <div class="bajada">
+                    <p>Welcome to Milo's! <br />
+                        We are a local.<br/>
+                        café and roastery. <br/>
+                        The coffee roastery is the<br/>
+                        heart of our delicate,<br/>
+                        smooth and simply <br/>
+                        irresistible coffee blends.<br/>
+                    </p> 
+                </div>
+            </div>
+            <div class="imagen">
+                <video autoplay muted loop poster="img/MenuCafe.jpg">
+                    <source src="img/CinematicCoffee.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div><!-- .about --> 
+    </section>
+    
+
+
+    <main class="contenedor sombra">
+        <div class="servicios">
+            <section class="servicio">
+                <div class="iconos">
+                    <img src="/img/MenuRestaurant.jpg" alt="Descripción de la imagen" class="servicio-imagen">
+                    <h3><a href="menu.html">Restaurant Menu</a></h3>
+                </div>
+            </section>
+            <section class="servicio">
+                <div class="iconos">
+                    <img src="/img/MenuCafe.jpg" alt="Descripción de la imagen"  class="servicio-imagen">
+                    <h3><a href="menu.html">Coffee Menu</a></h3>
+                </div>
+            </section>
+            <section class="servicio">
+                <div class="iconos">
+                    <img src="/img/MenuCoffeeshop.jpg" alt="Descripción de la imagen" class="servicio-imagen">
+                    <h3><a href="servicios.html">Servicios</a></h3>
+                </div>
+            </section>
+        </div>
+    </main>
+    
+    
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-item">
+                <a href="#">
+                    <img src="img/granocafe.svg" alt="GranoCafe">
+                </a>
+                <b>HAND ROASTED</b>
+                <p>Roasted Monday-Friday</p>
+            </div>
+            
+            <div class="footer-item">
+                <a href="#">
+                    <img src="img/bolsa.svg" alt="BolsaCafe">
+                </a>
+                <b>SEALED FOR FRESHNESS</b>
+                <p>Sealed immediately after roast</p>
+            </div>
+            
+            <div class="footer-item">
+                <a href="#">
+                    <img src="img/camion.svg" alt="Camion">
+                </a>
+                <b>DELIVERED FRESH TO YOU</b>
+                <p>Our beans are hand roasted and shipped directly to your door from our roastery</p>
+            </div>
+            
+            <div class="footer-item">
+                <a href="https://www.instagram.com/miloconpapas/">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="1.5em" viewBox="0 0 448 512">
+                        <style>svg{fill:#b9975b}</style>
+                        <path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/>
+                    </svg>
+                </a>
+                <b>SOCIAL MEDIA</b>
+                <p>Check us out!</p>
+            </div>
+        </div>
+    
+    </footer>
+
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+</body>
+</html>
